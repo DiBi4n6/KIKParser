@@ -5,6 +5,8 @@ import time
 
 
 print()
+print("KikParser_v1")
+print("Created By: DiBi4n6")
 print ("This script will parse the Email Adress")
 print ("DisplayName and UserName from a KIK database!")
 print()
@@ -27,12 +29,3 @@ for row in db.execute('SELECT jid, display_name, user_name FROM KIKcontactsTable
 
 
 db.close()
-
-
-
-
-
-
-	
-
-	
